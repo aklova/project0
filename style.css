@@ -1,0 +1,183 @@
+body {
+  font-family: "Lato", sans-serif;
+  background-color: black;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  color: white;
+  left: 180px;
+}
+
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 60px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+  background-color: #A9A9A9;
+  color: black;
+}
+
+.fa-facebook {
+  background: #383838;
+  color: black;
+}
+
+.fa-google {
+  background: #383838;
+  color: black;
+}
+
+.fa-linkedin {
+  background: #383838;
+  color: black;
+}
+
+.fa-instagram {
+  background: #383838;
+  color: black;
+}
+
+#sidenav {
+  background-color: #383838;
+  height: 100%;
+  width: 160px;
+  top: 0;
+  left: 0;
+  padding-top: 20px;
+  position: fixed;
+  overflow-x: hidden;
+}
+#sidenav a {
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+  display: block;
+  text-align: center;
+}
+#sidenav a:hover {
+  background-color: black;
+}
+#sidenav a.active {
+  background-color: black;
+}
+#sidenav a.active:hover {
+  background-color: #808080;
+  color: black;
+}
+
+.myname {
+  color: white;
+  margin-left: 150px;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.myskills {
+  color: white;
+  padding-top: 20px;
+  margin-left: 170px;
+  margin-right: 10px;
+}
+
+.container {
+  width: 100%;
+  background-color: #ddd;
+}
+
+.skills {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+@media (max-width: 500px) {
+  #sidenav {
+    width: 100%;
+    height: auto;
+    overflow: auto;
+    padding-top: 0;
+  }
+  #sidenav a {
+    font-size: 13px;
+    background-color: black;
+    float: left;
+    color: #686868;
+    width: 25%;
+    text-align: center;
+    padding-top: 7px;
+    padding-bottom: 7px;
+  }
+  #sidenav a:hover {
+    background-color: #A9A9A9;
+  }
+  #sidenav a.active:hover {
+    background-color: #A9A9A9;
+    color: #686868;
+  }
+
+  .myname {
+    margin-left: auto;
+    padding-top: 100px;
+  }
+
+  .myskills {
+    padding-top: 40px;
+    margin-left: 10px;
+  }
+
+  .footer {
+    left: 20px;
+  }
+}
+.col-sm {
+  background-color: black;
+}
+
+@media (min-width: 1200px) {
+  .myskills {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  .footer {
+    left: 300px;
+  }
+}
+@media (min-width: 1400px) {
+  .myskills {
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+
+  .footer {
+    left: 400px;
+  }
+}
+@media (min-width: 1800px) {
+  .myskills {
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+
+  .footer {
+    left: 550px;
+  }
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+/*# sourceMappingURL=style.css.map */
